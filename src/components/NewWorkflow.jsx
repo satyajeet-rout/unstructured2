@@ -262,7 +262,7 @@ import { Card } from '@/components/ui/card';
 // EmbedView Component
 const EmbedView = ({ onClose }) => {
   const [isLoading, setIsLoading] = useState(true);
-  const STREAMLIT_URL = "https://dsales.infrahive.io/";
+  const STREAMLIT_URL = "https://testoshiba.infrahive.io/";
 
   const handleOpenNewTab = () => {
     window.open(STREAMLIT_URL, '_blank', 'noopener,noreferrer');
